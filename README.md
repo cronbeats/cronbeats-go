@@ -4,7 +4,7 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/cronbeats/cronbeats-go)](https://goreportcard.com/report/github.com/cronbeats/cronbeats-go)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-Official Go SDK for CronBeats ping telemetry.
+Cron job monitoring and heartbeat monitoring SDK for Go. Monitor scheduled tasks, background jobs, and cron jobs with simple ping telemetry. Get alerts when cron jobs fail, miss their schedule, or run too long.
 
 ## Install (local/dev)
 
