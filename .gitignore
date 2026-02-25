@@ -1,0 +1,43 @@
+# ============================================================
+# Only these are needed for the public Go package:
+#   go.mod, LICENSE, README.md, *.go (and examples/*.go)
+# Everything below is ignored so it is never uploaded.
+# ============================================================
+
+# Internal docs and checklists (not for users)
+RELEASE_CHECKLIST.md
+*CHECKLIST*
+*NOTES*
+internal-docs/
+
+# Environment and secrets
+.env
+.env.*
+*.pem
+*.key
+
+# IDE and editor
+.cursor/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go (build artifacts and local cache; not needed in repo)
+/vendor/
+*.exe
+*.test
+*.out
+.cache/
+
+# Misc (scripts, backups, local overrides)
+*.bak
+*.local
+scripts/
+tmp/
+temp/
